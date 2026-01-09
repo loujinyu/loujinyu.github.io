@@ -4,6 +4,27 @@
   
     
     <entry>
+      <title>hexo rss</title>
+      <link href="/posts/f723.html"/>
+      <url>/posts/f723.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Hexo-RSS-配置"><a href="#Hexo-RSS-配置" class="headerlink" title="Hexo RSS 配置"></a>Hexo RSS 配置</h1><p>为 Hexo 博客添加 RSS 订阅功能，可以让用户通过 RSS 及时获取博客更新。以下是配置步骤：</p><p>安装 RSS 插件</p><p>在 Hexo 项目的根目录下，运行以下命令安装插件：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install </span><br><span class="line">feed --save</span><br></pre></td></tr></table></figure><p>修改主配置文件</p><p>打开 Hexo 根目录下的 _config.yml 文件，添加以下内容：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">feed:</span><br><span class="line">type: atom # 或 rss2</span><br><span class="line">path: atom.xml # 输出文件路径，可改为 rss2.xml</span><br><span class="line">limit: false # 显示文章数量，false 表示显示全部</span><br><span class="line">content: false # 是否包含文章全文，默认 false</span><br><span class="line">order_by: -date # 按日期排序，默认最新文章在前</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>修改主题配置文件</p><p>打开主题目录下的 _config.yml 文件，添加以下内容：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rss: /atom.xml</span><br></pre></td></tr></table></figure><p>生成静态文件</p><p>执行以下命令清理并重新生成静态文件：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo generate</span><br></pre></td></tr></table></figure><p>完成后，在 public 文件夹中会生成 atom.xml 文件。</p><p>验证 RSS 功能</p><p>部署博客后，通过访问 &lt;你的博客地址&gt;&#x2F;atom.xml（或 rss2.xml）即可查看 RSS 文件。</p><p>提示</p><p>如果需要自定义订阅图标，可在主配置中设置 icon 参数。</p><p>若需限制摘要长度，可使用 content_limit 和 content_limit_delim 参数。</p><p>完成以上步骤后，RSS 功能即可正常工作！</p><p>了解详细信息:cloud.tencent.com</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> rss </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>github部署</title>
       <link href="/posts/629f.html"/>
       <url>/posts/629f.html</url>

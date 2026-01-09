@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>এ</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2026-01-09T03:39:26.813Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>এ</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo rss</title>
+    <link href="http://example.com/posts/f723.html"/>
+    <id>http://example.com/posts/f723.html</id>
+    <published>2026-01-09T03:36:01.000Z</published>
+    <updated>2026-01-09T03:39:26.813Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Hexo-RSS-配置&quot;&gt;&lt;a href=&quot;#Hexo-RSS-配置&quot; class=&quot;headerlink&quot; title=&quot;Hexo RSS 配置&quot;&gt;&lt;/a&gt;Hexo RSS 配置&lt;/h1&gt;&lt;p&gt;为 Hexo 博客添加 RSS 订阅功能，可以让用户通过 RSS 及</summary>
+      
+    
+    
+    
+    
+    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    
+    <category term="rss" scheme="http://example.com/tags/rss/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>github部署</title>
+    <link href="http://example.com/posts/629f.html"/>
+    <id>http://example.com/posts/629f.html</id>
+    <published>2026-01-09T02:42:17.000Z</published>
+    <updated>2026-01-09T02:55:57.844Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;在GitHub上搭建Hexo&quot;&gt;&lt;a href=&quot;#在GitHub上搭建Hexo&quot; class=&quot;headerlink&quot; title=&quot;在GitHub上搭建Hexo&quot;&gt;&lt;/a&gt;在GitHub上搭建Hexo&lt;/h1&gt;&lt;h2 id=&quot;GitHub-Pages-是什么？</summary>
+      
+    
+    
+    
+    
+    <category term="github" scheme="http://example.com/tags/github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>那年今日</title>
+    <link href="http://example.com/posts/cf95.html"/>
+    <id>http://example.com/posts/cf95.html</id>
+    <published>2026-01-09T02:26:20.000Z</published>
+    <updated>2026-01-09T02:28:06.280Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;NPM-插件安装的部署方法：&quot;&gt;&lt;a href=&quot;#NPM-插件安装的部署方法：&quot; class=&quot;headerlink&quot; title=&quot;NPM 插件安装的部署方法：&quot;&gt;&lt;/a&gt;NPM 插件安装的部署方法：&lt;/h1&gt;&lt;figure class=&quot;highlight </summary>
+      
+    
+    
+    
+    
+    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    
+    <category term="主题" scheme="http://example.com/tags/%E4%B8%BB%E9%A2%98/"/>
+    
+    <category term="那年今日" scheme="http://example.com/tags/%E9%82%A3%E5%B9%B4%E4%BB%8A%E6%97%A5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>今日诗词</title>
+    <link href="http://example.com/posts/1eaa.html"/>
+    <id>http://example.com/posts/1eaa.html</id>
+    <published>2026-01-08T03:19:58.000Z</published>
+    <updated>2026-01-09T01:52:42.327Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;本文将介绍如何增添随机诗词的展示。&quot;&gt;&lt;a href=&quot;#本文将介绍如何增添随机诗词的展示。&quot; class=&quot;headerlink&quot; title=&quot;本文将介绍如何增添随机诗词的展示。&quot;&gt;&lt;/a&gt;本文将介绍如何增添随机诗词的展示。&lt;/h1&gt;&lt;h1 id=&quot;具体效果如</summary>
+      
+    
+    
+    
+    <category term="今日诗词" scheme="http://example.com/categories/%E4%BB%8A%E6%97%A5%E8%AF%97%E8%AF%8D/"/>
+    
+    
+    <category term="今日诗词" scheme="http://example.com/tags/%E4%BB%8A%E6%97%A5%E8%AF%97%E8%AF%8D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>字数统计</title>
+    <link href="http://example.com/posts/337a.html"/>
+    <id>http://example.com/posts/337a.html</id>
+    <published>2026-01-08T02:57:08.000Z</published>
+    <updated>2026-01-09T01:50:49.243Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;字数统计&quot;&gt;&lt;a href=&quot;#字数统计&quot; class=&quot;headerlink&quot; title=&quot;字数统计&quot;&gt;&lt;/a&gt;字数统计&lt;/h1&gt;&lt;h2 id=&quot;要为-AnZhiYu-配上字数统计特性-你需要如下几个步骤&quot;&gt;&lt;a href=&quot;#要为-AnZhiYu-配上字数统</summary>
+      
+    
+    
+    
+    <category term="字数统计" scheme="http://example.com/categories/%E5%AD%97%E6%95%B0%E7%BB%9F%E8%AE%A1/"/>
+    
+    
+    <category term="字数统计" scheme="http://example.com/tags/%E5%AD%97%E6%95%B0%E7%BB%9F%E8%AE%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>搜索栏配置</title>
+    <link href="http://example.com/posts/536e.html"/>
+    <id>http://example.com/posts/536e.html</id>
+    <published>2026-01-08T01:25:31.000Z</published>
+    <updated>2026-01-09T01:52:17.419Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;开启本地搜索功能&quot;&gt;&lt;a href=&quot;#开启本地搜索功能&quot; class=&quot;headerlink&quot; title=&quot;开启本地搜索功能&quot;&gt;&lt;/a&gt;开启本地搜索功能&lt;/h2&gt;&lt;p&gt;安装插件&lt;br&gt;安装 &lt;code&gt;hexo-generator-search&lt;/code&gt;&lt;</summary>
+      
+    
+    
+    
+    <category term="搜索" scheme="http://example.com/categories/%E6%90%9C%E7%B4%A2/"/>
+    
+    
+    <category term="搜索栏" scheme="http://example.com/tags/%E6%90%9C%E7%B4%A2%E6%A0%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>永久链接</title>
+    <link href="http://example.com/posts/2cd7.html"/>
+    <id>http://example.com/posts/2cd7.html</id>
+    <published>2026-01-07T01:22:56.000Z</published>
+    <updated>2026-01-09T01:51:15.935Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;文章生成永久链接（建议安装）&quot;&gt;&lt;a href=&quot;#文章生成永久链接（建议安装）&quot; class=&quot;headerlink&quot; title=&quot;文章生成永久链接（建议安装）&quot;&gt;&lt;/a&gt;文章生成永久链接（建议安装）&lt;/h1&gt;&lt;p&gt;使用 hexo-abbrlink 的 Hex</summary>
+      
+    
+    
+    
+    <category term="永久链接" scheme="http://example.com/categories/%E6%B0%B8%E4%B9%85%E9%93%BE%E6%8E%A5/"/>
+    
+    
+    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    
+    <category term="永久链接" scheme="http://example.com/tags/%E6%B0%B8%E4%B9%85%E9%93%BE%E6%8E%A5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo 部署</title>
+    <link href="http://example.com/posts/123c.html"/>
+    <id>http://example.com/posts/123c.html</id>
+    <published>2026-01-07T01:06:56.000Z</published>
+    <updated>2026-01-09T01:52:59.977Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h5 id=&quot;Hexo-本地部署&quot;&gt;&lt;a href=&quot;#Hexo-本地部署&quot; class=&quot;headerlink&quot; title=&quot;Hexo 本地部署&quot;&gt;&lt;/a&gt;Hexo 本地部署&lt;/h5&gt;&lt;p&gt;Hexo 是什么？&lt;/p&gt;
+&lt;p&gt;Hexo 是一个快速、简洁且高效的静态博客框架，它</summary>
+      
+    
+    
+    
+    <category term="hexo" scheme="http://example.com/categories/hexo/"/>
+    
+    
+    <category term="hexo 本地部署" scheme="http://example.com/tags/hexo-%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2/"/>
+    
+    <category term="安装网站" scheme="http://example.com/tags/%E5%AE%89%E8%A3%85%E7%BD%91%E7%AB%99/"/>
+    
+    <category term="安装node.js" scheme="http://example.com/tags/%E5%AE%89%E8%A3%85node-js/"/>
+    
+    <category term="安装hexo" scheme="http://example.com/tags/%E5%AE%89%E8%A3%85hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>安知鱼主题配置</title>
+    <link href="http://example.com/posts/970f.html"/>
+    <id>http://example.com/posts/970f.html</id>
+    <published>2026-01-06T06:43:59.000Z</published>
+    <updated>2026-01-07T01:21:47.655Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;主题安装&quot;&gt;&lt;a href=&quot;#主题安装&quot; class=&quot;headerlink&quot; title=&quot;主题安装&quot;&gt;&lt;/a&gt;主题安装&lt;/h3&gt;&lt;h1 id=&quot;nmp安装&quot;&gt;&lt;a href=&quot;#nmp安装&quot; class=&quot;headerlink&quot; title=&quot;nmp安装&quot;&gt;</summary>
+      
+    
+    
+    
+    
+    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    
+    <category term="anzhiyu" scheme="http://example.com/tags/anzhiyu/"/>
+    
+    <category term="主题" scheme="http://example.com/tags/%E4%B8%BB%E9%A2%98/"/>
+    
+    <category term="git" scheme="http://example.com/tags/git/"/>
+    
+  </entry>
+  
+</feed>
