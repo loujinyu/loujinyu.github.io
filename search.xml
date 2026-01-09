@@ -4,6 +4,52 @@
   
     
     <entry>
+      <title>添加侧边栏电子钟</title>
+      <link href="/posts/d1d.html"/>
+      <url>/posts/d1d.html</url>
+      
+        <content type="html"><![CDATA[<p>效果如下所示<br><img src="/img/tupian.png" alt="alt 时钟"></p><pre><code>如果有安装店长的插件版侧边栏电子钟（与店长的电子钟冲突），在博客根目录[Blogroot]下打开终端，运行以下指令</code></pre><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># 卸载原版电子钟</span><br><span class="line">npm uninstall hexo-anzhiyu-clock</span><br></pre></td></tr></table></figure><p>安装插件,在博客根目录[Blogroot]下打开终端，运行以下指令：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-anzhiyu-clock-anzhiyu --save</span><br></pre></td></tr></table></figure><p> 添加配置信息，以下为写法示例在站点配置文件_config.yml或者主题配置文件_config.anzhiyu.yml中添加</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"># electric_clock</span><br><span class="line"># see https://anzhiy.cn/posts/fc18.html</span><br><span class="line">electric_clock:</span><br><span class="line">  enable: true # 开关</span><br><span class="line">  priority: 5 #过滤器优先权</span><br><span class="line">  enable_page: all # 应用页面</span><br><span class="line">  exclude:</span><br><span class="line">   # - /posts/</span><br><span class="line">  # - /about/</span><br><span class="line">  layout: # 挂载容器类型</span><br><span class="line">    type: class</span><br><span class="line">    name: sticky_layout</span><br><span class="line">    index: 0</span><br><span class="line">  loading: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/loading.gif #加载动画自定义</span><br><span class="line">  clock_css: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.css</span><br><span class="line">  clock_js: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.js</span><br><span class="line">  ip_api: https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0</span><br><span class="line">  qweather_key: # 和风天气key</span><br><span class="line">  gaud_map_key: # 高得地图web服务key</span><br><span class="line">  default_rectangle: false # </span><br><span class="line">  开启后将一直显示rectangle位置的天气，否则将获取访问者的地理位置与天气</span><br><span class="line">  rectangle: 112.982279,28.19409 # 获取访问者位置失败时会显示该位置的天气，同时该位置为开启default_rectangle后的位置</span><br></pre></td></tr></table></figure><p>其中 <code>qweather_key</code> 和 <code>gaud_map_key</code> 最好自己去申请对应的 api key，默认使用我自己的，可能会被限制，不保证可靠性。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> 主题 </tag>
+            
+            <tag> 时钟 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>公告栏添加计时器</title>
+      <link href="/posts/8b7.html"/>
+      <url>/posts/8b7.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="操作"><a href="#操作" class="headerlink" title="操作"></a>操作</h1><h2 id="在-themes-anzhiyu-source-js目录下创建一个timing-js文件，并将如下代码写入该文件："><a href="#在-themes-anzhiyu-source-js目录下创建一个timing-js文件，并将如下代码写入该文件：" class="headerlink" title="在\themes\anzhiyu\source\js目录下创建一个timing.js文件，并将如下代码写入该文件："></a>在<code>\themes\anzhiyu\source\js</code>目录下创建一个<code>timing.js</code>文件，并将如下代码写入该文件：</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">let oSpan = document.getElementsByTagName(&quot;timing&quot;)[0];</span><br><span class="line">let localhostTime = new Date();//获取页面打开的时间</span><br><span class="line">function tow(n) &#123;</span><br><span class="line">    return n &gt;= 0 &amp;&amp; n &lt; 10 ? &#x27;0&#x27; + n : &#x27;&#x27; + n;</span><br><span class="line">&#125;</span><br><span class="line">setInterval(function () &#123;</span><br><span class="line">    let goTime = new Date();//获取动态时间</span><br><span class="line">    let diffTime = goTime.getTime() - localhostTime.getTime();</span><br><span class="line">    var second = Math.floor(diffTime / 1000);//未来时间距离现在的秒数</span><br><span class="line">    var day = Math.floor(second / 86400);//整数部分代表的是天；一天有24*60*60=86400秒 ；</span><br><span class="line">    second = second % 86400;//余数代表剩下的秒数；</span><br><span class="line">    var hour = Math.floor(second / 3600);//整数部分代表小时；</span><br><span class="line">    second %= 3600; //余数代表 剩下的秒数；</span><br><span class="line">    var minute = Math.floor(second / 60);</span><br><span class="line">    second %= 60;</span><br><span class="line">    // var str = tow(day) + &#x27;&lt;span class=&quot;time&quot;&gt;天&lt;/span&gt;&#x27;</span><br><span class="line">    //     + tow(hour) + &#x27;&lt;span class=&quot;time&quot;&gt;小时&lt;/span&gt;&#x27;</span><br><span class="line">    //     + tow(minute) + &#x27;&lt;span class=&quot;time&quot;&gt;分钟&lt;/span&gt;&#x27;</span><br><span class="line">    //     + tow(second) + &#x27;&lt;span class=&quot;time&quot;&gt;秒&lt;/span&gt;&#x27;;</span><br><span class="line">    var str = tow(hour) + &#x27;&lt;span class=&quot;time&quot;&gt;小时&lt;/span&gt;&#x27;</span><br><span class="line">        + tow(minute) + &#x27;&lt;span class=&quot;time&quot;&gt;分钟&lt;/span&gt;&#x27;</span><br><span class="line">        + tow(second) + &#x27;&lt;span class=&quot;time&quot;&gt;秒&lt;/span&gt;&#x27;;</span><br><span class="line">    oSpan.innerHTML = &quot;您已浏览网页&quot; + str;</span><br><span class="line">&#125;, 1000)</span><br></pre></td></tr></table></figure><h2 id="找到主题配置文件-config-anzhiyu-yml，在inject的bottom处引入该js文件："><a href="#找到主题配置文件-config-anzhiyu-yml，在inject的bottom处引入该js文件：" class="headerlink" title="找到主题配置文件_config.anzhiyu.yml，在inject的bottom处引入该js文件："></a>找到主题配置文件<code>_config.anzhiyu.yml</code>，在<code>inject</code>的<code>bottom</code>处引入该js文件：</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">inject:</span><br><span class="line">  bottom:</span><br><span class="line">  - &lt;script src=&quot;/js/timing.js&quot;&gt;&lt;/script&gt; # 公告栏计时器插件</span><br></pre></td></tr></table></figure><p>在<code>\themes\anzhiyu\layout\includes\widget</code>目录下找到<code>card_announcement.pug</code>文件，添加timing（注意缩进）：<br>与最后一行对齐添加<code>timing</code></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> 主题 </tag>
+            
+            <tag> 计时器 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>hexo rss</title>
       <link href="/posts/f723.html"/>
       <url>/posts/f723.html</url>

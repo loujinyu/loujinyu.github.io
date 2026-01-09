@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-01-09T03:39:26.813Z</updated>
+  <updated>2026-01-09T07:06:31.503Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,61 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>添加侧边栏电子钟</title>
+    <link href="http://example.com/posts/d1d.html"/>
+    <id>http://example.com/posts/d1d.html</id>
+    <published>2026-01-09T07:00:15.000Z</published>
+    <updated>2026-01-09T07:06:31.503Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;效果如下所示&lt;br&gt;&lt;img src=&quot;/img/tupian.png&quot; alt=&quot;alt 时钟&quot;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;如果有安装店长的插件版侧边栏电子钟（与店长的电子钟冲突），在博客根目录[Blogroot]下打开终端，运行以下指令
+&lt;/code&gt;&lt;/pre&gt;</summary>
+      
+    
+    
+    
+    
+    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    
+    <category term="主题" scheme="http://example.com/tags/%E4%B8%BB%E9%A2%98/"/>
+    
+    <category term="时钟" scheme="http://example.com/tags/%E6%97%B6%E9%92%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>公告栏添加计时器</title>
+    <link href="http://example.com/posts/8b7.html"/>
+    <id>http://example.com/posts/8b7.html</id>
+    <published>2026-01-09T05:18:54.000Z</published>
+    <updated>2026-01-09T06:30:18.961Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;操作&quot;&gt;&lt;a href=&quot;#操作&quot; class=&quot;headerlink&quot; title=&quot;操作&quot;&gt;&lt;/a&gt;操作&lt;/h1&gt;&lt;h2 id=&quot;在-themes-anzhiyu-source-js目录下创建一个timing-js文件，并将如下代码写入该文件：&quot;&gt;&lt;a hre</summary>
+      
+    
+    
+    
+    
+    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    
+    <category term="主题" scheme="http://example.com/tags/%E4%B8%BB%E9%A2%98/"/>
+    
+    <category term="计时器" scheme="http://example.com/tags/%E8%AE%A1%E6%97%B6%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
     <title>hexo rss</title>
     <link href="http://example.com/posts/f723.html"/>
     <id>http://example.com/posts/f723.html</id>
     <published>2026-01-09T03:36:01.000Z</published>
-    <updated>2026-01-09T03:39:26.813Z</updated>
+    <updated>2026-01-09T03:39:35.641Z</updated>
     
     
       
