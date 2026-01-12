@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-01-09T06:30:18.961Z</updated>
+  <updated>2026-01-12T02:31:26.224Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,47 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo压缩</title>
+    <link href="http://example.com/posts/c5d9.html"/>
+    <id>http://example.com/posts/c5d9.html</id>
+    <published>2026-01-12T02:28:22.000Z</published>
+    <updated>2026-01-12T02:31:26.224Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;hexo-压缩&quot;&gt;&lt;a href=&quot;#hexo-压缩&quot; class=&quot;headerlink&quot; title=&quot;hexo 压缩&quot;&gt;&lt;/a&gt;hexo 压缩&lt;/h1&gt;&lt;p&gt;为了提高 Hexo 博客的加载速度，可以使用插件对静态资源进行压缩。以下是使用 hexo-neat </summary>
+      
+    
+    
+    
+    
+    <category term="hexo压缩" scheme="http://example.com/tags/hexo%E5%8E%8B%E7%BC%A9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>日历卡片</title>
+    <link href="http://example.com/posts/b16d.html"/>
+    <id>http://example.com/posts/b16d.html</id>
+    <published>2026-01-12T01:49:27.000Z</published>
+    <updated>2026-01-12T01:56:36.664Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;效果如下：&lt;br&gt;！&lt;a href=&quot;/img/kapian.jpeg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;导读&quot;&gt;&lt;a href=&quot;#导读&quot; class=&quot;headerlink&quot; title=&quot;导读&quot;&gt;&lt;/a&gt;导读&lt;/h1&gt;&lt;h2 id=&quot;本文将引导我们在-hexo-博客</summary>
+      
+    
+    
+    
+    
+    <category term="日历卡片" scheme="http://example.com/tags/%E6%97%A5%E5%8E%86%E5%8D%A1%E7%89%87/"/>
+    
+  </entry>
   
   <entry>
     <title>公告栏添加计时器</title>
