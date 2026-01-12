@@ -4,29 +4,6 @@
   
     
     <entry>
-      <title>添加侧边栏电子钟</title>
-      <link href="/posts/d1d.html"/>
-      <url>/posts/d1d.html</url>
-      
-        <content type="html"><![CDATA[<p>效果如下所示<br><img src="/img/tupian.png" alt="alt 时钟"></p><pre><code>如果有安装店长的插件版侧边栏电子钟（与店长的电子钟冲突），在博客根目录[Blogroot]下打开终端，运行以下指令</code></pre><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># 卸载原版电子钟</span><br><span class="line">npm uninstall hexo-anzhiyu-clock</span><br></pre></td></tr></table></figure><p>安装插件,在博客根目录[Blogroot]下打开终端，运行以下指令：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-anzhiyu-clock-anzhiyu --save</span><br></pre></td></tr></table></figure><p> 添加配置信息，以下为写法示例在站点配置文件_config.yml或者主题配置文件_config.anzhiyu.yml中添加</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"># electric_clock</span><br><span class="line"># see https://anzhiy.cn/posts/fc18.html</span><br><span class="line">electric_clock:</span><br><span class="line">  enable: true # 开关</span><br><span class="line">  priority: 5 #过滤器优先权</span><br><span class="line">  enable_page: all # 应用页面</span><br><span class="line">  exclude:</span><br><span class="line">   # - /posts/</span><br><span class="line">  # - /about/</span><br><span class="line">  layout: # 挂载容器类型</span><br><span class="line">    type: class</span><br><span class="line">    name: sticky_layout</span><br><span class="line">    index: 0</span><br><span class="line">  loading: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/loading.gif #加载动画自定义</span><br><span class="line">  clock_css: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.css</span><br><span class="line">  clock_js: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.js</span><br><span class="line">  ip_api: https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0</span><br><span class="line">  qweather_key: # 和风天气key</span><br><span class="line">  gaud_map_key: # 高得地图web服务key</span><br><span class="line">  default_rectangle: false # </span><br><span class="line">  开启后将一直显示rectangle位置的天气，否则将获取访问者的地理位置与天气</span><br><span class="line">  rectangle: 112.982279,28.19409 # 获取访问者位置失败时会显示该位置的天气，同时该位置为开启default_rectangle后的位置</span><br></pre></td></tr></table></figure><p>其中 <code>qweather_key</code> 和 <code>gaud_map_key</code> 最好自己去申请对应的 api key，默认使用我自己的，可能会被限制，不保证可靠性。</p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> hexo </tag>
-            
-            <tag> 主题 </tag>
-            
-            <tag> 时钟 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>公告栏添加计时器</title>
       <link href="/posts/8b7.html"/>
       <url>/posts/8b7.html</url>
